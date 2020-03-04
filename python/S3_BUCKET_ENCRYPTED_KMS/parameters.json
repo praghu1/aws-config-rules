@@ -1,0 +1,11 @@
+{
+  "Version": "1.0",
+  "Parameters": {
+    "RuleName": "S3_BUCKET_ENCRYPTED_KMS",
+    "SourceRuntime": "python3.6-lib",
+    "CodeKey": "S3_BUCKET_ENCRYPTED_KMS.zip",
+    "OptionalParameters": "{}",
+    "SourcePeriodic": "One_Hour"
+  },
+  "Tags": "[]"
+}
