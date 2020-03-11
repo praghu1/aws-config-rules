@@ -1,0 +1,12 @@
+{
+  "Version": "1.0",
+  "Parameters": {
+    "RuleName": "S3_DEFAULT_ENCRYPTION_KMS",
+    "SourceRuntime": "python3.6-lib",
+    "CodeKey": "S3_DEFAULT_ENCRYPTION_KMS.zip",
+    "InputParameters": "{\"KmsKeyArns\": \"\"}",
+    "OptionalParameters": "{}",
+    "SourceEvents": "AWS::S3::Bucket"
+  },
+  "Tags": "[]"
+}
